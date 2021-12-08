@@ -66,7 +66,7 @@
         </div>
         <div class="portfolio__right-side--navbar_mobile">
           <el-button @click="drawer = true">
-            <i class="el-icon-menu"></i>
+             <menuIcon :height="24" :width="24"/>
           </el-button>
         </div>
 
@@ -288,6 +288,7 @@ import logic from '../components/icons/logic.vue'
 import document from '../components/icons/file-text.vue'
 import cubic from '../components/icons/grid-interface.vue'
 import profile from '../components/icons/profile-1.vue'
+import menuIcon from '../components/icons/menu.vue'
 
 export default 
   {
@@ -312,7 +313,7 @@ export default
     }
   },
   components:{
-    logic, document, cubic, profile
+    logic, document, cubic, profile, menuIcon
   }
 }
 </script>
@@ -333,7 +334,6 @@ $textColor: #2c3e50;
     position: sticky;
     top: 1rem;
     overflow-y: scroll;
-    height: 53rem;
     img {
       width: 100%;
       border-radius: 2rem;
@@ -443,18 +443,16 @@ $textColor: #2c3e50;
       margin-bottom: 1rem;
       margin-top: 1rem;
       margin-right: 1rem;
-
       button,
       button:focus {
-        font-size: 1.4rem;
-        background-color: $elementColor;
+        background-color: $white;
         color: $white;
-        border-color: $elementColor;
+        border: none;
       }
       button:hover {
         background-color: $headerColor;
         color: $white;
-        border-color: $headerColor;
+        border: none;
       }
     }
     .el-drawer {
@@ -737,7 +735,6 @@ $textColor: #2c3e50;
 @media (max-width: 992px) {
   .portfolio__left-side {
     overflow-y: visible;
-    height: 70rem;
   }
   .portfolio__right-side--block--home {
     background: none;
