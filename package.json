@@ -43,8 +43,5 @@
       "parser": "babel-eslint"
     },
     "rules": {}
-  },
-  "resolutions": {
-    "caniuse-lite": "*"
   }
 }
