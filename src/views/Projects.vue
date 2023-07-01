@@ -468,6 +468,7 @@ $orange: #FF7800;
   }
 }
 .el-drawer {
+  overflow: auto !important;
   .actual_project-info {
     &__title {
       font-size: 2rem;

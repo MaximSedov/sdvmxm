@@ -11,24 +11,26 @@
     "@element-plus/icons": "^0.0.11",
     "core-js": "^3.6.5",
     "element-plus": "^1.2.0-beta.3",
+    "npm": "^9.7.2",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vue-scrollto": "^2.20.0",
     "vue-snakke": "^0.0.7",
-    "vuex": "^4.0.0-0"
+    "vuex": "^4.0.0-0",
+    "webpack": "^4.39.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-vuex": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-router": "^4.1.2",
+    "@vue/cli-plugin-vuex": "^5.0.8",
+    "@vue/cli-service": "^4.5.19",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
+    "eslint": "^8.44.0",
     "eslint-plugin-vue": "^7.0.0",
     "sass": "^1.26.5",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^10.1.1"
   },
   "eslintConfig": {
     "root": true,
@@ -43,5 +45,10 @@
       "parser": "babel-eslint"
     },
     "rules": {}
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
