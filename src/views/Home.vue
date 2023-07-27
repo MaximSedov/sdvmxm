@@ -209,16 +209,20 @@
                 <el-collapse-item name="2">
                   <template #title>Университет</template>
                   <div>
-                    В данный момент учусь на заочной форме обучения по
+                    Имею диплом о высшем образовании (бакалавр) по
                     направлению "Прикладная информатика".
                   </div>
                 </el-collapse-item>
                 <el-collapse-item name="3">
                   <template #title>Курсы</template>
                   <div>
-                    Прошел некоторое множество различных курсов по
-                    web-разработке. Автором последнего был Vladilen Minin, курс
-                    по VUE 3.
+                    Прошел целое множество разнообразных курсов, расширяя свои навыки и продолжаю познавать новое. 
+                  </div>
+                </el-collapse-item>
+                <el-collapse-item name="4">
+                  <template #title>Работа</template>
+                  <div>
+                    На данный момент работаю на коммерческом проекте.
                   </div>
                 </el-collapse-item>
               </el-collapse>
