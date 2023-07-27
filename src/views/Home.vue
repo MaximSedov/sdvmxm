@@ -134,7 +134,7 @@
               <el-row>
                 <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" style="font-size: 1.2rem">
                   <span>HTML</span>
-                  <el-progress color="#da7f8f" :percentage="95"></el-progress>
+                  <el-progress color="#da7f8f" :percentage="98"></el-progress>
                   <br />
                   <span>CSS</span>
                   <el-progress color="#da7f8f" :percentage="85"></el-progress>
@@ -145,25 +145,43 @@
                   <span>ELEMENT UI</span>
                   <el-progress color="#da7f8f" :percentage="85"></el-progress>
                   <br />
+                  <span>NAIVE UI</span>
+                  <el-progress color="#da7f8f" :percentage="90"></el-progress>
+                  <br />
                   <span>FIGMA</span>
                   <el-progress color="#da7f8f" :percentage="65"></el-progress>
+                  <br />
+                  <span>IONIC</span>
+                  <el-progress color="#da7f8f" :percentage="98"></el-progress>
+                  <br />
+                  <span>CAPACITOR</span>
+                  <el-progress color="#da7f8f" :percentage="85"></el-progress>
                   <br />
                 </el-col>
                 <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" style="font-size: 1.2rem">
                   <span>PHP</span>
-                  <el-progress color="#da7f8f" :percentage="45"></el-progress>
+                  <el-progress color="#da7f8f" :percentage="25"></el-progress>
                   <br />
-                  <span>MySQL</span>
+                  <span>PostgreSQL</span>
                   <el-progress color="#da7f8f" :percentage="75"></el-progress>
                   <br />
                   <span>JS</span>
                   <el-progress color="#da7f8f" :percentage="80"></el-progress>
+                  <br />
+                  <span>PINIA</span>
+                  <el-progress color="#da7f8f" :percentage="90"></el-progress>
                   <br />
                   <span>VUE 3</span>
                   <el-progress color="#da7f8f" :percentage="80"></el-progress>
                   <br />
                   <span>FIREBASE</span>
                   <el-progress color="#da7f8f" :percentage="50"></el-progress>
+                  <br />
+                  <span>SUPABASE</span>
+                  <el-progress color="#da7f8f" :percentage="85"></el-progress>
+                  <br />
+                  <span>DevOps</span>
+                  <el-progress color="#da7f8f" :percentage="15"></el-progress>
                   <br />
                 </el-col>
               </el-row>
