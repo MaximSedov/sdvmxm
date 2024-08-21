@@ -157,6 +157,9 @@
                   <span>CAPACITOR</span>
                   <el-progress color="#da7f8f" :percentage="85"></el-progress>
                   <br />
+                  <span>APPWRITE</span>
+                  <el-progress color="#da7f8f" :percentage="80"></el-progress>
+                  <br />
                 </el-col>
                 <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" style="font-size: 1.2rem">
                   <span>PHP</span>
@@ -172,7 +175,10 @@
                   <el-progress color="#da7f8f" :percentage="90"></el-progress>
                   <br />
                   <span>VUE 3</span>
-                  <el-progress color="#da7f8f" :percentage="80"></el-progress>
+                  <el-progress color="#da7f8f" :percentage="95"></el-progress>
+                  <br />
+                  <span>VUEUSE</span>
+                  <el-progress color="#da7f8f" :percentage="85"></el-progress>
                   <br />
                   <span>FIREBASE</span>
                   <el-progress color="#da7f8f" :percentage="50"></el-progress>
